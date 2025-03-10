@@ -1,0 +1,371 @@
+
+/*Header + navbar*/
+header{
+    background-color: rgb(223, 22, 22);
+    margin-top : -15px;
+    margin-left : -15px;
+    margin-right : -15px;
+    height: 115px;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    box-shadow: 10px 5px 5px black;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0, 0.5);
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+    width : 60%;
+    border-radius: 35px;
+    border: solid;
+  }
+  
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.navbar a.active {
+    background-color: #a10a0ade;
+    color: white;
+}
+
+/*Container pour catégorie*/
+
+.categorie{
+    background-color: rgba(206, 44, 44, 0.75);
+    width : 75%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    color :white;
+    border : solid;
+    border-color: black;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0, 0.5);
+    margin-top: 4%;
+}
+
+/*Bouton pour CV*/
+
+.Voir_CV{
+    background-color: rgb(180, 29, 29);
+    color: white;
+    padding: 5px;
+    width : 40%;
+    font-size :100%;
+    border-radius: 25px;
+    text-decoration: none;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-color: black;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.pdf{
+    width: 15%;
+    height: 15%;
+    padding-right: 5%;
+}
+
+.Voir_CV:hover{
+    background-color: rgb(210, 0, 0) ;
+    width : 42%;
+}
+
+/*Cards formation*/
+
+.card_formation{
+    background-color: rgb(180, 29, 29);
+    display : flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width : 25%;
+    border-radius: 15px;
+    color: white;
+    border : solid;
+    border-color: black;
+}
+
+.nom_et_date{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nom_et_date p{
+    margin-top : -20px;
+}
+
+.image_formation{
+    width : 55%;
+    height: 55%;
+    border: solid;
+}
+
+.fleche{
+    width: 5%;
+}
+
+.info_formation{
+    position : relative;
+    left: 80px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+.texte{
+    font-size: 15px;
+}
+
+/*Container projet*/
+
+.container{
+    color:white;
+    background-color: rgb(180, 29, 29);
+    width : 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 1%;
+    border-radius: 15px;
+    border: solid;
+    border-color: black;
+    margin-bottom: 1%;
+}
+
+.bouton_projet{
+    background-color: rgb(220, 20, 20);
+    font-size : 12px;
+    color :white;
+    margin-bottom: 1%;
+    height: 45px;
+    width: 9%;
+    position: relative;
+    left: 1000px;
+}
+
+.bouton_projet:hover{
+    background-color: rgb(255, 0, 0);
+    height: 50px;
+    width: 10%;
+    cursor: pointer;
+}
+
+.projet{
+    height: auto;
+    display: flex;
+    flex-direction: column; 
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+.image_projets{
+    width : 45%;
+    height : 25%;
+    border: solid;
+    margin-left: 25% ;
+}
+
+.element{
+    list-style-type: square;
+    font-size: 20px;
+}
+
+/*Container expérience pro*/
+
+/*Cards compétences*/
+
+.cards_competence{
+    color:white;
+    background-color: rgb(214, 46, 46);
+    width : 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1%;
+    border-radius: 15px;
+    text-align: center;
+    border: solid;
+    border-color: black;
+    margin-bottom: 3%;
+}
+
+/*Cards Hardskills + softskills*/
+
+.cards_skills{
+    color:white;
+    background-color: rgb(158, 13, 13);
+    width : 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1%;
+    border-radius: 15px;
+    text-align: center;
+    padding-bottom: 2%;
+    border: solid;
+    border-color: black;
+    margin-bottom: 5%;
+}
+
+.image_outils{
+    width: 20%;
+    border-radius: 50%;
+    border: solid;
+    border-color: goldenrod;
+
+}
+
+.outils{
+    width : 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*card centre d'intêret*/
+
+.image_interet {
+    width : 75%;
+    height: 300px;
+    border: solid;
+}
+
+.card_interet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width : 33%;
+}
+
+.ensemble_cards_interet{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    margin-bottom: 10%;
+    padding-top: 3%;
+    margin-bottom: 15%;
+}
+/*Footer*/
+
+footer{
+    color: white;
+    background-color: rgb(223, 22, 22);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: solid;
+    border-color: black;
+    box-shadow: 10px 5px 5px black;
+    box-shadow: 10px -5px 5px rgb(0, 0, 0, 0.5);
+    padding : 20px;
+    margin-right: 10%;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.shortcut_contact{
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    color : white;
+}
+
+.shortcut_contact:hover{
+    font-size: 28px;
+    color: gray;
+    cursor: pointer;
+}
+
+/*Propriétés rajoutées dans l'index*/
+
+.mon_image{
+    width: 25%;
+    border-radius: 100%;
+    border: solid;
+    margin-right: 1%;
+}
+
+.photo_et_info{
+    display: flex;
+    align-items: center;
+}
+
+.haut_premiere_categorie{
+    display: flex;
+}
+
+.texte_1{
+    font-size: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 32px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.agencement_cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.agencement_cards_verticale{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+body{
+    background-color: rgb(209, 203, 203);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h4{
+    font-size: 20px;
+}
