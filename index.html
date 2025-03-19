@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,25 +9,27 @@
 </head>
 <body>
 
-    <header>
-        <ul class = "navbar">
-            <li><a href ="#contact">Contactez moi</a></li>
-            <li><a href="#mini_bio">Ma mini-bio</a></li>
-            <li><a href="#formation">Mes formations</a></li>
-            <li><a href="#projets">Mes projets</a></li>
-            <li><a href="#pro">Mes expériences professionelles</a></li>
-            <li><a href="#competence">Mes compétences</a></li>
-            <li><a href ="#interet">Mes centres d'intêret</a></li>
-        </ul>
+    <header aria-label="Bienvenu sur mon site Porfolio" tabindex="0">
+        <nav aria-label="Menu de navigation du site" tabindex="0">
+            <ul class = "navbar">
+                <li><a href ="#contact" aria-label="Raccourcis vers les moyens de me contacter">Contactez moi</a></li>
+                <li><a href="#mini_bio" aria-label="Raccourcis vers ma mini-bio">Ma mini-bio</a></li>
+                <li><a href="#formation" aria-label="Raccourcis vers les informations sur les formations que j'ai effectué">Mes formations</a></li>
+                <li><a href="#projets" aria-label="Raccourcis vers les projets que j'ai réalisé">Mes projets</a></li>
+                <li><a href="#pro" aria-label="Raccourcis vers mes expériences professionelles">Mes expériences professionelles</a></li>
+                <li><a href="#competence" aria-label="Raccourcis vers les descriptions de mes compétences">Mes compétences</a></li>
+                <li><a href ="#interet" aria-label="Raccourcis vers mes centres d'intêret">Mes centres d'intêret</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
         
-        <div class = "categorie">
+        <div class = "categorie" aria-label="Ma présentaton et les moyens de me contacter" tabindex="0">
             <section class = "haut_premiere_categorie">
                 <div class = "photo_et_info">
-                    <img src = "media/img/mon_image.png" class ="mon_image">
-                    <p class = "texte_1">
+                    <img src = "media/img/mon_image.png" class ="mon_image" alt = "Photo de moi">
+                    <p class = "texte_1" aria-label="Je suis Clain Lucas étudiant en MMI qui cherche une alternance en développement web" tabindex="0">
                         Clain Lucas <br>
                         Étudiant en MMI <br> 
                         Recherchant une alternance en développement web
@@ -35,15 +37,21 @@
                 </div>
 
                 <div>
-                    <h1 id = "contact">Contactez moi</h1>
-                    <p class = "texte_1">Numéro de téléphone : 06 63 47 82 47</p>
-                    <p class = "texte_1">Adresse mail : lucasclain28@gmail.com</p>
-                    <a class = "Voir_CV" href = "CV_V1.pdf"><img src = "media/img/pdf.png" alt = "Télécharger mon cv" class = "pdf">Mon CV</a>
+                    <h1 id = "contact" aria-label="Les moyens de me contacter" tabindex="0">Contactez moi</h1>
+                    <p class = "texte" aria-label="Numéro de téléphone : 06 63 47 82 47" tabindex="0">Numéro de téléphone : 06 63 47 82 47</p>
+                    <p class = "texte" aria-label="Adresse mail : lucasclain28@gmail.com" tabindex="0">Adresse mail : lucasclain28@gmail.com</p>
+                    <a class = "Voir_CV" href = "CV_V1.pdf" target="_blank" aria-label="Téléchargez mon CV ici"><img src = "media/img/pdf.png" alt = "Télécharger mon cv" class = "pdf">Mon CV</a>
                 </div>
             </section>
             
-            <h1 id ="mini_bio">Ma Mini-bio</h1>
-            <p class = "texte_1">
+            <h1 id ="mini_bio" aria-label="Voici ma mini-biographie" tabindex="0">Ma Mini-bio</h1>
+            <p class = "texte_1" aria-label="Passionné du numérique et du développement web, je suis Lucas Clain, étudiant de 18 ans.
+            Je vis à Morlaix et j’ai intégré le BUT MMI à l’IUT de Lannion. Grâce à mon parcours à l’IUT, je
+            m’améliore dans le développement web et dans divers autres domaines du multimédia comme
+            l’audio-visuel, et la gestion de projet. De plus, cette formation me permet de mieux comprendre le
+            milieu professionnel et le monde des entreprises. Cependant, je recherche davantage d’expérience
+            professionnelle et c’est pour cette raison que je souhaite faire une alternance pour en apprendre
+            encore plus sur le monde du travail et des entreprises." tabindex="0">
                 Passionné du numérique et du développement web, je suis Lucas Clain, étudiant de 18 ans.
                 Je vis à Morlaix et j’ai intégré le BUT MMI à l’IUT de Lannion. Grâce à mon parcours à l’IUT, je
                 m’améliore dans le développement web et dans divers autres domaines du multimédia comme
@@ -52,7 +60,11 @@
                 professionnelle et c’est pour cette raison que je souhaite faire une alternance pour en apprendre
                 encore plus sur le monde du travail et des entreprises.
             </p>
-            <p class = "texte_1">
+            <p class = "texte_1" aria-label="J’ai éveillé mon goût pour le développement web au collège lors d’un cours de NSI et
+            depuis ce jours je me suis fixé pour objectif, qu’un jour, j’en ferais mon métier. J’ai adoré
+            directement le développement web car j’aime l’aspect concret de ce domaine. En effet, selon moi,
+            construire un site web est très satisfaisant car on le voit se développer au fur et à mesure de notre
+            travail." tabindex="0">
                 J’ai éveillé mon goût pour le développement web au collège lors d’un cours de NSI et
                 depuis ce jours je me suis fixé pour objectif, qu’un jour, j’en ferais mon métier. J’ai adoré
                 directement le développement web car j’aime l’aspect concret de ce domaine. En effet, selon moi,
@@ -63,32 +75,32 @@
 
 
         <div class = "categorie">
-            <h1 id = "formation">Mes formations</h1>
+            <h1 id = "formation" aria-label="Voici les formations que j'ai suivi" tabindex="0">Mes formations</h1>
             
             <section class = "agencement_cards">
                 <div class = "card_formation">
                     <div class = "nom_et_date">
-                        <h2>But MMI</h2>
-                        <p>(2024 - En cours)</p>
+                        <h2 aria-label="But MMI" tabindex="0">But MMI</h2>
+                        <p aria-label = "Je suis cette formation depuis 2024 jusqu'à aujourd'hui" tabindex="0">(2024 - En cours)</p>
                     </div>
                     <img src = "media/img/IUT_Lannion.jpg" alt = "Photo de l'IUT de Lannion" class = "image_formation">
-                    <article class = "info_formation">
-                        <p class ="texte"><img src = "media/img/fleche.png" class = "fleche" alt = "Flèche"> Université de Rennes</p>
-                        <p class ="texte"><img src = "media/img/fleche.png" class = "fleche" alt = "Flèche"> IUT de Lannion (22)</p>
-                        <p class ="texte"><img src = "media/img/fleche.png" class = "fleche" alt = "Flèche"> Domaine : Audio-visuel, <br> developpement web, communication <br> et marketing</p>
+                    <article class = "info_formation" aria-label="Informations sur le BUT MMI" tabindex="0">
+                        <p class ="texte" aria-label="L'organisme dans lequel j'ai suivis cette formation est l'université de Rennes" tabindex="0"><img src = "media/img/fleche.png" class = "fleche" alt = "Flèche"> Université de Rennes</p>
+                        <p class ="texte" aria-label="J'ai suivis cette formation à l'IUT de Lannion (22)" tabindex="0"><img src = "media/img/fleche.png" class = "fleche" alt = "Flèche"> IUT de Lannion (22)</p>
+                        <p class ="texte" aria-label="Les domaines de la formation sont l'audio-visuel, le developpement web, la communication et le marketing" tabindex="0"><img src = "media/img/fleche.png" class = "fleche" alt = "Flèche"> Domaine : Audio-visuel, <br> developpement web, communication <br> et marketing</p>
                     </article>
                 </div>
 
                 <div class = "card_formation">
                     <div class = "nom_et_date">
-                        <h2>Baccalauréat général</h2>
-                        <p>(2024 - En cours)</p>
+                        <h2 aria-label="Baccalauréat général" tabindex="0">Baccalauréat général</h2>
+                        <p aria-label="J'ai passé mon Baccalauréat générale en 2024" tabindex="0">(2024)</p>
                     </div>
                     <img src = "media/img/Lycee_Tristan_Corbiere.jpg" alt = "Photo du Lycée Tistan Corbière" class = "image_formation">
-                    <article class = "info_formation">
-                        <p class ="texte"><img src = "media/img/fleche.png" class = "fleche" alt = "Flèche"> Lycée Tristan Corbière, Morlaix (29)</p>
-                        <p class ="texte"><img src = "media/img/fleche.png" class = "fleche" alt = "Flèche"> Mention Bien</p>
-                        <p class ="texte"><img src = "media/img/fleche.png" class = "fleche" alt = "Flèche"> spécialité mathématique et NSI </p>
+                    <article class = "info_formation" aria-label="Informations sur mon baccalauréat" tabindex="0">
+                        <p class ="texte" aria-label="J'ai passé mon baccalauréat général au lycée Tristan Corbière à Morlaix (29)" tabindex="0"><img src = "media/img/fleche.png" class = "fleche" alt = "Flèche"> Lycée Tristan Corbière, Morlaix (29)</p>
+                        <p class ="texte" aria-label="J'ai obtenu la mention bien" tabindex="0"><img src = "media/img/fleche.png" class = "fleche" alt = "Flèche"> Mention Bien</p>
+                        <p class ="texte" aria-label="J'avais pour spécialité : les mathématiques et la N.S.I qui signifie Numérique et Science de L'informatique" tabindex="0"><img src = "media/img/fleche.png" class = "fleche" alt = "Flèche"> spécialité mathématique et NSI </p>
                     </article>
                 </div>
             </section>
@@ -96,107 +108,109 @@
 
 
         <div class = "categorie">
-            <h1 id = "projets">Mes Projets</h1>
+            <h1 id = "projets" aria-label="Présentations des projets que j'ai réalisé" tabindex="0">Mes Projets</h1>
             
             <section class = "agencement_cards">
                 <div class="container">
                     <div>
                         <article>
-                            <h2>Produire un site web (2024)</h2>
-                            <p>
-                                L’objectif du projet est de réaliser un site web qui permettra de gérer une collection de
-                                Pokémon. Sur ce site on peut rajouter et supprimer des Pokémons de sa collection.
-                            </p>
+                            <h2 aria-label="Projet nommé Produire un site web réalisé en 2024" tabindex="0">Produire un site web (2024)</h2>
                         </arcticle>
-                        <button class = "bouton_projet" onclick="showHide('info_en_plus1', this)">En savoir plus</button>
+                        <button class = "bouton_projet" onclick="showHide('info_en_plus1', this)" aria-label="Appuyez sur entrée pour en savoir plus sur le projet">En savoir plus</button>
                     </div>
                     <div class = "info_en_plus hide projet" id = "info_en_plus1">
                         <h3>Description du projet</h3>
+                        <p aria-label="L’objectif du projet est de réaliser un site web qui permettra de gérer une collection de
+                        Pokémon. Sur ce site on peut rajouter et supprimer des Pokémons de sa collection." tabindex="0">
+                            L’objectif du projet est de réaliser un site web qui permettra de gérer une collection de
+                            Pokémon. Sur ce site on peut rajouter et supprimer des Pokémons de sa collection.
+                        </p>                        
                         <h4>Illustration du projet</h4>
                         <div>
                             <img src = "media/img/site.png" alt = "image site pokémon" class = "image_projets">
                         
                         </div>
             
-                        <h4>Étapes du projet</h4>
+                        <h4 aria-label="Les différentes étapes du projet" tabindex="0">Étapes du projet</h4>
                         <ul class ="element">
-                            <li>Réalisation des wireframes</li>
-                            <li>Réalisation des mockups</li>
-                            <li>Réalisation du code du site</li>
+                            <li aria-label="Réalisation des wireframes" tabindex="0">Réalisation des wireframes</li>
+                            <li aria-label="Réalisation des mockups" tabindex="0">Réalisation des mockups</li>
+                            <li aria-label="Réalisation du code du site" tabindex="0">Réalisation du code du site</li>
                         </ul>
             
             
-                        <h4>Aspects technique</h4>
+                        <h4 aria-label="Les aspects techniques du projets" tabindex="0">Aspects technique</h4>
                         <ul class ="element">
-                            <li>Utilisation de Figma pour le maquettage</li>
-                            <li>Utilisation de Visual Studio Code pour la réalisation du code du site</li>
+                            <li aria-label="Utilisation de Figma pour le maquettage" tabindex="0">Utilisation de Figma pour le maquettage</li>
+                            <li aria-label="Utilisation de Visual Studio Code pour la réalisation du code du site" tabindex="0">Utilisation de Visual Studio Code pour la réalisation du code du site</li>
                         </ul>
             
             
-                        <h4>Compétences mises en oeuvre lors du projet</h4>
+                        <h4 aria-label="Compétences mises en oeuvre lors du projet" tabindex="0">Compétences mises en oeuvre lors du projet</h4>
                         <ul class ="element">
-                            <li>Discipline</li>
-                            <li>Créativité</li>
+                            <li aria-label="La Discipline" tabindex="0">Discipline</li>
+                            <li aria-label="La Créativité" tabindex="0">Créativité</li>
                         </ul>
             
             
-                        <h4>Livrables</h4>
+                        <h4 aria-label="Les livrables que j'ai fournis à la fin du projet" tabindex="0">Livrables</h4>
                         <ul class ="element">
-                            <li>Maquette du site</li>
-                            <li>Code du site</li>
+                            <li aria-label="Maquette du site" tabindex="0">Maquette du site</li>
+                            <li aria-label="Code du site" tabindex="0">Code du site</li>
                         </ul>
                     </div>
                 </div>
             </section>
 
             <section class = "agencement_cards">
-                <div class="container">
+                <div class="container"> 
                     <div>
                         <article>
-                            <h2>Trick Track Game (2024)</h2>
-                            <p>
-                                L’objectif du projet est de réaliser, en groupe, un jeu coopératif en programmant des cartes microbits
-                                et en utilisant du javascript.
-                            </p>
+                            <h2 aria-label="Projet nommé Trick Track Game réalisé en 2024" tabindex="0">Trick Track Game (2024)</h2>
                         </arcticle>
-                        <button class = "bouton_projet" onclick="showHide('info_en_plus2', this)">En savoir plus</button>
+                        <button class = "bouton_projet" onclick="showHide('info_en_plus2', this)" aria-label="Appuyez sur entrée pour en savoir plus sur le projet">En savoir plus</button>
                     </div>
                     <div class = "info_en_plus hide projet" id = "info_en_plus2">
                         <h3>Description du projet</h3>
+                        <p aria-label="L’objectif du projet est de réaliser, en groupe, un jeu coopératif en programmant des cartes microbits
+                        et en utilisant du javascript." tabindex="0">
+                            L’objectif du projet est de réaliser, en groupe, un jeu coopératif en programmant des cartes microbits
+                            et en utilisant du javascript.
+                        </p>
                         <h4>Illustration du projet</h4>
                         <div>
                             <img src = "media/img/dvp_web.png" alt = "Image du jeux" class = "image_projets">
                         
                         </div>
             
-                        <h4>Étapes du projet</h4>
+                        <h4 aria-label="Les différentes étapes du projet" tabindex="0">Étapes du projet</h4>
                         <ul class ="element">
-                            <li>Recherche des idées en groupe, brainstorming</li>
-                            <li>Réalisation des décors du jeu</li>
-                            <li>Réalisation du code du jeu</li>
+                            <li aria-label="Recherche des idées en groupe, brainstorming" tabindex="0">Recherche des idées en groupe, brainstorming</li>
+                            <li aria-label="Réalisation des décors du jeu" tabindex="0">Réalisation des décors du jeu</li>
+                            <li aria-label="Réalisation du code du jeu" tabindex="0">Réalisation du code du jeu</li>
                         </ul>
             
             
-                        <h4>Aspects technique</h4>
+                        <h4 aria-label="Les aspects techniques du projets" tabindex="0">Aspects technique</h4>
                         <ul class ="element">
-                            <li>Utilisation du site Makecode</li>
-                            <li>Utilisation du langage javascript</li>
-                            <li>Utilisation des cartes microbits</li>
+                            <li aria-label="Utilisation du site Makecode" tabindex="0">Utilisation du site Makecode</li>
+                            <li aria-label="Utilisation du langage javascript" tabindex="0">Utilisation du langage javascript</li>
+                            <li aria-label="Utilisation des cartes microbits" tabindex="0">Utilisation des cartes microbits</li>
                         </ul>
             
             
-                        <h4>Compétences mises en oeuvre lors du projet</h4>
+                        <h4 aria-label="Compétences mises en oeuvre lors du projet" tabindex="0">Compétences mises en oeuvre lors du projet</h4>
                         <ul class ="element">
-                            <li>Discipline</li>
-                            <li>Travail d’équipe (car il s'agit d'un projet collectif)</li>
-                            <li>Créativité</li>
+                            <li aria-label="La discipline" tabindex="0">Discipline</li>
+                            <li aria-label="Le travail d'équipe (car il s'agit d'un projet collectif)" tabindex="0">Travail d’équipe (car il s'agit d'un projet collectif)</li>
+                            <li aria-label="La créativité" tabindex="0">Créativité</li>
                         </ul>
             
             
-                        <h4>Livrables</h4>
+                        <h4 aria-label="Les livrables que nous avons fournis à la fin du projet" tabindex="0">Livrables</h4>
                         <ul class ="element">
-                            <li>Décors du jeu</li>
-                            <li>Code du jeu</li>
+                            <li aria-label="Les décors du jeu" tabindex="0">Décors du jeu</li>
+                            <li aria-label="Le code du jeu" tabindex="0">Code du jeu</li>
                         </ul>
                     </div>
                 </div>
@@ -206,47 +220,47 @@
                 <div class="container">
                     <div>
                         <article>
-                            <h2>Produire les éléments d'une communication visuelle (2024)</h2>
-                            <p>
-                                L’objectif du projet est de réaliser une affiche pour le festival A l’West Fest
-                            </p>
+                            <h2 aria-label="Projet nommé Produire les éléments d'une communication visuelle réalisé en 2024" tabindex="0">Produire les éléments d'une communication visuelle (2024)</h2>
                         </arcticle>
-                        <button class = "bouton_projet" onclick="showHide('info_en_plus3', this)">En savoir plus</button>
+                        <button class = "bouton_projet" onclick="showHide('info_en_plus3', this)" aria-label="Appuyez sur entrée pour en savoir plus sur le projet">En savoir plus</button>
                     </div>
                     <div class = "info_en_plus hide projet" id = "info_en_plus3">
                         <h3>Description du projet</h3>
+                        <p aria-label="L’objectif du projet est de réaliser une affiche pour le festival A l’West Fest" tabindex="0">
+                            L’objectif du projet est de réaliser une affiche pour le festival A l’West Fest
+                        </p>
                         <h4>Illustration du projet</h4>
                         <div>
                             <img src = "media/img/affiche.png" alt = "Il y aura une image ici" class = "image_projets">
                         
                         </div>
             
-                        <h4>Étapes du projet</h4>
+                        <h4 aria-label="Les différentes étapes du projet" tabindex="0">Étapes du projet</h4>
                         <ul class ="element">
-                            <li>Recherche d’existant</li>
-                            <li>Recherche d’idées</li>
-                            <li>Réalisation de l’affiche</li>
+                            <li aria-label="Recherche d’existant" tabindex="0">Recherche d’existant</li>
+                            <li aria-label="Recherche d’idées" tabindex="0">Recherche d’idées</li>
+                            <li aria-label="Réalisation de l’affiche" tabindex="0">Réalisation de l’affiche</li>
                         </ul>
             
             
-                        <h4>Aspects technique</h4>
+                        <h4 aria-label="Les aspects techniques du projets" tabindex="0">Aspects technique</h4>
                         <ul class ="element">
-                            <li>Utilisation Google Doc comme outil de gestion de projet</li>
-                            <li>Utilisation d’Affinity Designer</li>
+                            <li aria-label="Utilisation Google Doc comme outil de gestion de projet" tabindex="0">Utilisation Google Doc comme outil de gestion de projet</li>
+                            <li aria-label="Utilisation d’Affinity Designer" tabindex="0">Utilisation d’Affinity Designer</li>
                         </ul>
             
             
-                        <h4>Compétences mises en oeuvre lors du projet</h4>
+                        <h4 aria-label="Compétences mises en oeuvre lors du projet" tabindex="0">Compétences mises en oeuvre lors du projet</h4>
                         <ul class ="element">
-                            <li>Discipline</li>
-                            <li>Créativité</li>
+                            <li aria-label="La discipline" tabindex="0">Discipline</li>
+                            <li aria-label="La créativité" tabindex="0">Créativité</li>
                         </ul>
             
             
-                        <h4>Livrables</h4>
+                        <h4 aria-label="Les livrables que nous avons fournis à la fin du projet" tabindex="0">Livrables</h4>
                         <ul class ="element">
-                            <li>Oral de présentation de l'affiche aux clients</li>
-                            <li>Affiche en elle même</li>
+                            <li aria-label="Oral de présentation de l'affiche aux clients" tabindex="0">Oral de présentation de l'affiche aux clients</li>
+                            <li aria-label="Affiche en elle même" tabindex="0">Affiche en elle même</li>
                         </ul>
                     </div>
                 </div>
@@ -256,12 +270,12 @@
         </div>
 
         <div class = "categorie">
-            <h1 id = "pro">Mes expériences professionelles</h1>
+            <h1 id = "pro" aria-label="présentation de mes expériences professionelles" tabindex="0">Mes expériences professionelles</h1>
             
             <section class = "agencement_cards_verticale">
                 <div class = "container">
-                    <h2>Stage de 3ème à Chausséa (15 décembre 2020 - 18 décembre 2020)</h2>
-                    <p>
+                    <h2 aria-label="Stage de 3ème à Chausséa réalisé entre le 15 décembre 2020 et le 18 décembre 2020" tabindex="0">Stage de 3ème à Chausséa (15 décembre 2020 - 18 décembre 2020)</h2>
+                    <p aria-label="Lors de mon année de 3ème j'ai eu l'occasion de faire un stage dans une entreprise privée spécialisée dans la vente de chaussure appelée Chausséa. Au sein de cette entreprise j'ai été chargé de ranger les rayons, étiqueter les boîtes et déballer les cartons" tabindex="0">
                         Lors de mon année de 3ème j'ai eu l'occasion de faire un stage dans une entreprise privée spécialisée dans la vente de chaussure appelée Chausséa. Au sein de cette entreprise j'ai été chargé de ranger les rayons, étiqueter les boîtes et déballer les cartons
                     </p>
                 </div>
@@ -269,59 +283,59 @@
         </div>
 
         <div class = "categorie">
-            <h1 id = "competence">Mes compétences</h1>
+            <h1 id = "competence" aria-label="Mes compétences" tabindex="0">Mes compétences</h1>
             <section class = "agencement_cards_verticale">
                 <div class = cards_competence>
-                    <h3>Compétences professionnelles (hardskills)</h3>
+                    <h2 aria-label="Mes compétences professionnelles (hardskills)" tabindex="0">Compétences professionnelles (hardskills)</h2>
                     
                     <div class = cards_skills>
-                        <h4>Développement web</h4>
-                        <div class = outils>
-                            <img src = "media/img/html.png" alt = "Il y aura une image ici" class = "image_outils">
-                            <img src = "media/img/css.png" alt = "Il y aura une image ici" class = "image_outils">
-                            <img src = "media/img/java_script.png" alt = "Il y aura une image ici" class = "image_outils">
+                        <h3 aria-label="Le développement web" tabindex="0">Développement web</h3>
+                        <div class = outils aria-label="Les outils que je maîtrise" tabindex="0">
+                            <img src = "media/img/html.png" alt = "HTML" class = "image_outils" aria-label="Le HTML" tabindex="0">
+                            <img src = "media/img/css.png" alt = "CSS" class = "image_outils" aria-label="Le CSS" tabindex="0">
+                            <img src = "media/img/java_script.png" alt = "javascript" class = "image_outils" aria-label="Le javascript" tabindex="0">
                         </div>
                     </div>
 
                     <div class = cards_skills>
-                        <h4>Graphisme</h4>
-                        <div class = outils>
-                            <img src = "media/img/affinity_designer.png" alt = "Il y aura une image ici" class = "image_outils">
-                            <img src = "media/img/affinity_photo.png" alt = "Il y aura une image ici" class = "image_outils">
-                            <img src = "media/img/affinity_publisher.png" alt = "Il y aura une image ici" class = "image_outils">
+                        <h3 aria-label="Le graphisme" tabindex="0">Graphisme</h3>
+                        <div class = outils aria-label="Les outils que je maîtrise" tabindex="0">
+                            <img src = "media/img/affinity_designer.png" alt = "affinity designer" class = "image_outils" aria-label="affinity designer" tabindex="0">
+                            <img src = "media/img/affinity_photo.png" alt = "affinity photo" class = "image_outils" aria-label="affinity photo" tabindex="0">
+                            <img src = "media/img/affinity_publisher.png" alt = "affinity publisher" class = "image_outils" aria-label="affinity publisher" tabindex="0">
                         </div>
                     </div>
 
                     <div class = cards_skills>
-                        <h4>Stratégie de communication</h4>
-                        <div class = outils>
-                            <img src = "media/img/audit.png" alt = "Il y aura une image ici" class = "image_outils">
-                            <img src = "media/img/SWOT.png" alt = "Il y aura une image ici" class = "image_outils">
-                            <img src = "media/img/PESTEl.png" alt = "Il y aura une image ici" class = "image_outils">
+                        <h3 aria-label="La stratégie de communication et le marketing" tabindex="0">Stratégie de communication et marketing</h3>
+                        <div class = outils aria-label="les outils que je maîtrise" tabindex="0">
+                            <img src = "media/img/audit.png" alt = "audit" class = "image_outils" aria-label="Les audits" tabindex="0">
+                            <img src = "media/img/SWOT.png" alt = "SWOT" class = "image_outils" aria-label="Le Swot" tabindex="0">
+                            <img src = "media/img/PESTEl.png" alt = "PESTEL" class = "image_outils" aria-label="Le Pestel" tabindex="0">
                         </div>
                     </div>
                 </div>
 
                 <div class = cards_competence>
-                    <h3>Compétences personnelles (softskills)</h3>
+                    <h2 aria-label="Mes compétences personnelles (softskills)" tabindex="0">Compétences personnelles (softskills)</h2>
                     
                     <div class = cards_skills>
-                        <h4>Déterminé</h4>
-                        <p>
+                        <h3 aria-label="Je suis déterminé" tabindex="0">Déterminé</h3>
+                        <p aria-label="J'essaie de toujours finir chacun des projets que je commence même si je ne suis pas très à l'aise avec le domaine de celui-ci. On peut par exemple citer l'audit que moi et mon groupe avons réalisé en 2024 pour le chantier naval Hénaff. Il s'agit d'un projet de communication, et malgrès le fait que je ne soit pas très à l'aise dans ce domaine je suis quand même venu à bout de ce projet." tabindex="0">
                             J'essaie de toujours finir chacun des projets que je commence même si je ne suis pas très à l'aise avec le domaine de celui-ci. On peut par exemple citer l'audit que moi et mon groupe avons réalisé en 2024 pour le chantier naval Hénaff. Il s'agit d'un projet de communication, et malgrès le fait que je ne soit pas très à l'aise dans ce domaine je suis quand même venu à bout de ce projet.
                         </p>
                     </div>
 
                     <div class = cards_skills>
-                        <h4>Attention</h4>
-                        <p>
+                        <h3 aria-label="Je sais faire preuve d'attention" tabindex="0">Attention</h3>
+                        <p aria-label="J'écoute et je respecte toujours les consignes qui me sont indiquées. Je suis capable de continuer d'exprimer ma créativité tout en respectant les contraintes fournies par le client." tabindex="0">
                             J'écoute et je respecte toujours les consignes qui me sont indiquées. Je suis capable de continuer d'exprimer ma créativité tout en respectant les contraintes fournies par le client.
                         </p>
                     </div>
 
                     <div class = cards_skills>
-                        <h4>Sérieux</h4>
-                        <p>
+                        <h3 aria-label="Je suis sérieux" tabindex="0">Sérieux</h3>
+                        <p aria-label="Le respect des deadlines des projets est capital pour moi je ferai toujours en sorte de finir un projet dans les temps et que ce travail soit qualitatif." tabindex="0">
                             Le respect des deadlines des projets est capital pour moi je ferai toujours en sorte de finir un projet dans les temps et que ce travail soit qualitatif.
                         </p>
                     </div>
@@ -331,34 +345,38 @@
 
 
         <div class = "categorie">
-            <h1 id ="interet">Mes centres d'intêret</h1>
-            <p>En dehors du développement web :</p>
+            <h1 id ="interet" aria-label="présentation de mes centre d'intêrets" tabindex="0">Mes centres d'intêret</h1>
+            <p aria-label="En dehors du développement web :" tabindex="0">En dehors du développement web :</p>
         
-        <div class = "ensemble_cards_interet">
-            <div class = "card_interet">
-                <img src = "media/img/plage_primel.jpg" alt = "Il y aura une image ici" class = "image_interet">
-                <p>
-                    J’adore me promener en nature, sur les bords de mer ou encore dans
-                    la forêt car ces paysages m’inspirent et m’aident à me ressourcer.
-                </p>
-            </div>
-            <div class = "card_interet">
-                <img src = "media/img/minecraft.png" alt = "Il y aura une image ici" class = "image_interet">
-                <p>
-                    J’aime également jouer aux jeux vidéos notamment les jeux de type
+            <div class = "ensemble_cards_interet">
+                <div class = "card_interet">
+                    <img src = "media/img/plage_primel.jpg" alt = "Photo montrant la plage de Primel" class = "image_interet">
+                    <p aria-label="J’adore me promener en nature, sur les bords de mer ou encore dans
+                    la forêt car ces paysages m’inspirent et m’aident à me ressourcer." tabindex="0">
+                        J’adore me promener en nature, sur les bords de mer ou encore dans
+                        la forêt car ces paysages m’inspirent et m’aident à me ressourcer.
+                    </p>
+                </div>
+                <div class = "card_interet">
+                    <img src = "media/img/minecraft.png" alt = "Photo illustrant le jeu : Minecraft" class = "image_interet">
+                    <p aria-label="J’aime également jouer aux jeux vidéos notamment les jeux de type
                     bac à sable comme Minecraft dans lesquels on peut créer ce que l’on
                     veut car ces types de jeux me permettent de développer et exercer ma
-                    créativité.
-                </p>
+                    créativité." tabindex="0">
+                        J’aime également jouer aux jeux vidéos notamment les jeux de type
+                        bac à sable comme Minecraft dans lesquels on peut créer ce que l’on
+                        veut car ces types de jeux me permettent de développer et exercer ma
+                        créativité. 
+                    </p>
+                </div>
             </div>
-        </div>
         </div>
     </main>
 
-    <footer>
-        <p>CLAIN Lucas</p>
-        <a href = "#contact" class = "shortcut_contact">Me contacter</a>
-        <p>Développeur web</p>
+    <footer aria-label="Ceci est la fin du site" tabindex="0">
+        <p aria-label="réalisé par Clain Lucas" tabindex="0">CLAIN Lucas</p>
+        <a href = "#contact" class = "shortcut_contact" aria-label="Voici un raccourci pour accéder aux moyens de me contacter">Me contacter</a>
+        <p aria-label="Je suis développeur web" tabindex="0">Développeur web</p>
     </footer>
 </body>
 </html>

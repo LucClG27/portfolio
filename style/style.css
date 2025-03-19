@@ -2,27 +2,25 @@
 /*Header + navbar*/
 header{
     background-color: rgb(223, 22, 22);
-    margin-top : -15px;
-    margin-left : -15px;
-    margin-right : -15px;
-    height: 115px;
+    height: 7.188rem;
+    width: auto;
     display : flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: solid;
-    box-shadow: 10px 5px 5px black;
-    box-shadow: 10px 5px 5px rgb(0, 0, 0, 0.5);
+    box-shadow: 0.625rem 0.313rem 0.313rem black;
+    box-shadow: 0.625rem 0.313rem 0.313rem rgb(0, 0, 0, 0.5);
 }
 
 .navbar {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0rem;
+    padding: 0rem;
     background-color: #333;
     overflow: hidden;
-    width : 60%;
-    border-radius: 35px;
+    width : 80rem;
+    border-radius: 2.188rem;
     border: solid;
   }
   
@@ -30,9 +28,9 @@ header{
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.875rem 1rem;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.263rem;
 }
   
 .navbar a:hover {
@@ -50,15 +48,16 @@ header{
 .categorie{
     background-color: rgba(206, 44, 44, 0.75);
     width : 75%;
+    height: auto;
     padding-left: 3%;
     padding-right: 3%;
     padding-top: 1%;
     color :white;
     border : solid;
     border-color: black;
-    box-shadow: 10px 5px 5px rgb(0, 0, 0, 0.5);
+    box-shadow: 0.625rem 0.313rem 0.313rem rgb(0, 0, 0, 0.5);
     margin-top: 4%;
-    background: linear-gradient(-90deg,rgb(241, 38, 38), rgb(243, 111, 111) );
+    background: linear-gradient(-90deg,rgb(241, 38, 38), rgb(146, 41, 41) );
 }
 
 /*Bouton pour CV*/
@@ -66,10 +65,10 @@ header{
 .Voir_CV{
     background-color: rgb(180, 29, 29);
     color: white;
-    padding: 5px;
+    padding: 0.313rem;
     width : 40%;
-    font-size :100%;
-    border-radius: 25px;
+    font-size :1.5rem;
+    border-radius: 1.563rem;
     text-decoration: none;
     display :flex;
     justify-content: center;
@@ -88,8 +87,9 @@ header{
 
 .Voir_CV:hover{
     background-color: rgb(210, 0, 0) ;
-    width : 42%;
-    border-color: white;
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+    cursor: pointer;
 }
 
 /*Cards formation*/
@@ -100,11 +100,12 @@ header{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width : 25%;
-    border-radius: 15px;
+    width : auto;
+    border-radius: 0.938rem;
     color: white;
     border : solid;
     border-color: black;
+    margin-left: 2rem;
 }
 
 .nom_et_date{
@@ -114,12 +115,12 @@ header{
 }
 
 .nom_et_date p{
-    margin-top : -20px;
+    margin-top : -1.25rem;
 }
 
 .image_formation{
-    width : 55%;
-    height: 55%;
+    width : 20rem;
+    height: 20rem;
     border: solid;
 }
 
@@ -128,18 +129,19 @@ header{
 }
 
 .info_formation{
-    position : relative;
-    left: 80px;
+    display: flex;
+    flex-direction: column;
 }
 
 h2{
-    font-family: "Permanent_marker";
-    font-size: 30px;
+    font-family: "Gravitas_One";
+    font-size: 1.875rem;
 }
 
 .texte{
 
-    font-size: 15px;
+    font-size: 1.1rem;
+    margin-left: 0.5rem;
 }
 
 /*Container projet*/
@@ -152,7 +154,7 @@ h2{
     flex-direction: column;
     justify-content: space-between;
     padding-left: 1%;
-    border-radius: 15px;
+    border-radius: 0.938rem;
     border: solid;
     border-color: black;
     margin-bottom: 1%;
@@ -160,21 +162,21 @@ h2{
 
 .bouton_projet{
     background-color: rgb(220, 20, 20);
-    font-size : 12px;
+    font-size : 20px;
     color :white;
     margin-bottom: 1%;
-    height: 45px;
-    width: 9%;
-    position: relative;
-    left: 1000px;
+    height: 2.813rem;
+    width: 11%;
 }
 
 .bouton_projet:hover{
-    background-color: rgb(255, 0, 0);
-    height: 50px;
-    width: 10%;
+    background-color: rgb(235, 0, 0);
     cursor: pointer;
     border-color: goldenrod;
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+    cursor: pointer;
+    
 }
 
 .projet{
@@ -201,7 +203,7 @@ h2{
 .element{
     list-style-type: square;
     font-family: "Oleo_Script";
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 /*Container expérience pro*/
@@ -217,7 +219,7 @@ h2{
     justify-content: space-between;
     align-items: center;
     padding-left: 1%;
-    border-radius: 15px;
+    border-radius: 0.938rem;
     text-align: center;
     border: solid;
     border-color: black;
@@ -235,7 +237,7 @@ h2{
     justify-content: space-between;
     align-items: center;
     padding-left: 1%;
-    border-radius: 15px;
+    border-radius: 0.938rem;
     text-align: center;
     padding-bottom: 2%;
     border: solid;
@@ -260,8 +262,8 @@ h2{
 /*card centre d'intêret*/
 
 .image_interet {
-    width : 75%;
-    height: 300px;
+    width : 20rem;
+    height: 20rem;
     border: solid;
 }
 
@@ -269,16 +271,13 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width : 33%;
+    width : 23rem;
+    height: auto;
 }
 
 .ensemble_cards_interet{
     display: flex;
     justify-content: space-around;
-    height: 200px;
-    margin-bottom: 10%;
-    padding-top: 3%;
-    margin-bottom: 20%;
 }
 /*Footer*/
 
@@ -291,25 +290,30 @@ footer{
     align-items: center;
     border: solid;
     border-color: black;
-    box-shadow: 10px 5px 5px black;
-    box-shadow: 10px -5px 5px rgb(0, 0, 0, 0.5);
-    padding : 20px;
-    margin-right: 10%;
-    width: 100%;
-    margin-top: 5%;
+    box-shadow: 0.625rem 0.313rem 0.313rem black;
+    box-shadow: 0.625rem 0.313rem 0.313rem rgb(0, 0, 0, 0.5);
+    padding : 1.25rem;
+    margin-top: 5rem;
+    width: auto;
+    
 }
 
 .shortcut_contact{
     font-weight: bold;
-    font-size: 25px;
+    font-size: 1.563rem;
+    padding: 0.3rem;
     text-decoration: none;
     color : white;
+    border: solid;
+    background-color: rgb(0, 0, 0, 0.5);
 }
 
 .shortcut_contact:hover{
-    font-size: 28px;
     color: rgb(220, 220, 220);
+    transform: scale(1.1);
+    transition-duration: 0.3s;
     cursor: pointer;
+    background-color: rgb(0, 0, 0);
 }
 
 /*Propriétés rajoutées dans l'index*/
@@ -332,7 +336,7 @@ footer{
 
 p{
     font-family: "Alkatra";
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 main{
@@ -342,13 +346,13 @@ main{
 }
 
 h1{
-    font-family: "Permanent_marker";
-    font-size: 40px;
+    font-family: "Gravitas_One";
+    font-size: 2.5rem;
 }
 
 h3{
-    font-family: "Permanent_marker";
-    font-size: 27px;
+    font-family: "Gravitas_One";
+    font-size: 1.688rem;
 }
 
 .agencement_cards{
@@ -368,7 +372,7 @@ h3{
 }
 
 body{
-    background: linear-gradient(-90deg,rgb(187, 184, 184), rgb(226, 225, 225) );
+    background: linear-gradient(-90deg,rgb(0, 0, 0), rgb(122, 121, 121) );
 }
 
 html{
@@ -376,13 +380,13 @@ html{
 }
 
 h4{
-    font-family: "Permanent_marker";
-    font-size: 20px;
+    font-family: "Gravitas_One";
+    font-size: 1.25rem;
 }
 
 @font-face{
-    font-family: "Permanent_marker";
-    src : url("Permanent_Marker/PermanentMarker-Regular.ttf")
+    font-family: "Gravitas_One";
+    src : url("Gravitas_One/GravitasOne-Regular.ttf")
 }
 
 @font-face{
